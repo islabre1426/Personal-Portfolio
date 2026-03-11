@@ -1,0 +1,44 @@
+body {
+    font: 100%/1.5 sans-serif;
+
+    margin: 0 auto;
+    max-width: 40em;
+}
+
+header, footer {
+    background-color: dodgerblue;
+}
+
+header ul, footer ul {
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+}
+
+header li, footer li {
+    list-style-type: none;
+}
+
+header a, footer a {
+    display: block;
+
+    color: white;
+    text-decoration: none;
+
+    padding: 0.5em;
+}
+
+header li:hover, footer li:hover {
+    background-color: deepskyblue;
+}
+
+main {
+    padding: 0 0.5em;
+}
+
+@media (max-width: 500px) {
+    footer ul {
+        flex-direction: column;
+    }
+}
