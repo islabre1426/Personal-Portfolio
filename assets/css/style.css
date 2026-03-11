@@ -37,6 +37,18 @@ main {
     padding: 0 0.5em;
 }
 
+figure {
+    margin: 1em;
+}
+
+figure img {
+    max-width: 100%;
+}
+
+figcaption, .embed  {
+    text-align: center;
+}
+
 @media (max-width: 500px) {
     footer ul {
         flex-direction: column;

@@ -15,3 +15,8 @@ Currently working in progress.
 ├── /more.html
 └── /projects.html
 ```
+
+## Credits
+- [Bradley Taunt's website](https://btxx.org/): For sitemap footer inspiration
+- [Karl Bartel's website](https://www.karl.berlin/): For navigation inspiration
+- [Unsplash](https://unsplash.com/): For various images
