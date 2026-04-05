@@ -23,7 +23,7 @@
         <article>
             <h1>Form</h1>
     
-            <p>This page lists commonly-used form input (as of March 16, 2026).</p>
+            <p>This page lists commonly-used form input (as of April 5, 2026).</p>
 
             <form>
                 <table>
@@ -51,6 +51,159 @@
                         </td>
                         <td>
                             <input type="tel" name="phone-number" id="phone-number" max="10" placeholder="e.g. 0123456789">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="favorite-number">Favorite number:</label>
+                        </td>
+                        <td>
+                            <input type="number" name="favorite-number" id="favorite-number" placeholder="e.g. 12">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="date-of-birth">Date of birth:</label>
+                        </td>
+                        <td>
+                            <input type="date" name="date-of-birth" id="date-of-birth">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="temperature">Comfortable room temperature:</label>
+                        </td>
+                        <td>
+                            <input type="range" name="temperature" id="temperature" min="18" max="37" value="25">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="favorite-color">Favorite color:</label>
+                        </td>
+                        <td>
+                            <input type="color" name="favorite-color" id="favorite-color">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="upload-file">Upload a file:</label>
+                        </td>
+                        <td>
+                            <input type="file" name="upload-file" id="upload-file">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="gender">Your gender:</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="gender" id="gender-male" value="male">
+                            <label for="gender-male">Male</label>
+
+                            <input type="radio" name="gender" id="gender-female" value="female">
+                            <label for="gender-female">Female</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="favorite-tech">Favorite technology:</label>
+                        </td>
+                        <td>
+                            <div>
+                                <input type="checkbox" name="favorite-tech" id="tech-ai" value="ai">
+                                <label for="tech-ai">Artifical Intelligence (AI)</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" name="favorite-tech" id="tech-web" value="web">
+                                <label for="tech-web">Web</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" name="favorite-tech" id="tech-automation" value="automation">
+                                <label for="tech-automation">Automation</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" name="favorite-tech" id="tech-electric" value="electric">
+                                <label for="tech-electric">Electric</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" name="favorite-tech" id="tech-biotech" value="biotech">
+                                <label for="tech-biotech">Biotech</label>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="favorite-food">Favorite food:</label>
+                        </td>
+                        <td>
+                            <select name="favorite-food" id="favorite-food">
+                                <optgroup label="Sweet">
+                                    <option value="chocolate">Chocolate</option>
+                                    <option value="cake">Cake</option>
+                                    <option value="pie">Pie</option>
+                                </optgroup>
+                                <optgroup label="Salad">
+                                    <option value="bean-salad">Bean salad</option>
+                                    <option value="garden-salad">Garden salad</option>
+                                    <option value="ambrosia">Ambrosia</option>
+                                </optgroup>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="comments">Comments:</label>
+                        </td>
+                        <td>
+                            <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="ice-cream-choice">Your ice cream flavors:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="ice-cream-choice" id="ice-cream-choice" list="ice-cream-flavors">
+
+                            <datalist id="ice-cream-flavors">
+                                <option value="Chocolate"></option>
+                                <option value="Coconut"></option>
+                                <option value="Mint"></option>
+                                <option value="Strawberry"></option>
+                                <option value="Vanilla"></option>
+                            </datalist>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="hidden-input">Hidden input:</label>
+                        </td>
+                        <td>
+                            <input type="hidden" name="hidden-input" id="hidden-input">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
                         </td>
                     </tr>
                 </table>
