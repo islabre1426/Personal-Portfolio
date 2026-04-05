@@ -21,6 +21,9 @@ Currently working in progress.
 - Semantic HTML
 - Cute pics!
 
+## W3C Validator Result
+![W3C Validator Result](./W3C-Validator-result.png)
+
 ## Credits
 - [Bradley Taunt's website](https://btxx.org/): For sitemap footer inspiration
 - [Karl Bartel's website](https://www.karl.berlin/): For navigation inspiration
