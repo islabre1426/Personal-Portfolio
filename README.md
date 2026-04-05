@@ -16,7 +16,13 @@ Currently working in progress.
 └── /projects.html
 ```
 
+## Features
+- Minimally styled
+- Semantic HTML
+- Cute pics!
+
 ## Credits
 - [Bradley Taunt's website](https://btxx.org/): For sitemap footer inspiration
 - [Karl Bartel's website](https://www.karl.berlin/): For navigation inspiration
 - [Unsplash](https://unsplash.com/): For various images
+- [Font Awesome](https://fontawesome.com/): For favicon

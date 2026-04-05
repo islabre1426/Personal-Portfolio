@@ -1,3 +1,11 @@
+:root {
+    --nav-background: dodgerblue;
+    --nav-button-hover: deepskyblue;
+    --error-color: red;
+    --success-color: limegreen;
+    --button-link-color: white;
+}
+
 body {
     font: 100%/1.5 sans-serif;
 
@@ -6,7 +14,7 @@ body {
 }
 
 header, footer {
-    background-color: dodgerblue;
+    background-color: var(--nav-background);
 }
 
 header ul, footer ul {
@@ -23,14 +31,14 @@ header li, footer li {
 header a, footer a {
     display: block;
 
-    color: white;
+    color: var(--button-link-color);
     text-decoration: none;
 
     padding: 0.5em;
 }
 
 header li:hover, footer li:hover {
-    background-color: deepskyblue;
+    background-color: var(--nav-button-hover);
 }
 
 main {
@@ -53,4 +61,18 @@ figcaption, .embed  {
     footer ul {
         flex-direction: column;
     }
+}
+
+#phone-number:invalid {
+    outline: 2px solid var(--error-color);
+}
+
+#phone-number:invalid ~ .message::after {
+    content: "Invalid phone number. Format: \"0\" (without quotes) + 9 numbers.";
+    font-size: small;
+    color: var(--error-color);
+}
+
+#phone-number:valid {
+    outline: 2px solid var(--success-color);
 }
